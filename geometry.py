@@ -22,7 +22,7 @@ def calculate_distance_list(rA, rB):
     return distance
 
 
-def build_bond_list(coordinates, max_bond=1.5, min_bond=0):
+def build_bond_list(coordinates, max_bond=2.93, min_bond=0):
     num_atoms = len(coordinates)
     
     bonds = {}
@@ -35,3 +35,5 @@ def build_bond_list(coordinates, max_bond=1.5, min_bond=0):
                 bonds[(atom1, atom2)] = distance 
     
     return bonds
+    
+    
