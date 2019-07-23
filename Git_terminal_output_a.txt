@@ -1,0 +1,303 @@
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git --version
+git version 2.20.1
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git init
+Initialized empty Git repository in /Users/beata/Desktop/MolISS/molssi_summer_school/day2/.git/
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git config --global beata.dulkosmith@mavs.uta.edu
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git --list
+unknown option: --list
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git list
+git: 'list' is not a git command. See 'git --help'.
+
+The most similar commands are
+	bisect
+	rev-list
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git -list
+unknown option: -list
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ man git
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git --list
+unknown option: --list
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.ipynb_checkpoints/
+	QCArchive demo.ipynb
+	geometry.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git add geometry.py 
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   geometry.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.ipynb_checkpoints/
+	QCArchive demo.ipynb
+
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git commit -m "add geometry module"
+[master (root-commit) 1c8602b] add geometry module
+ Committer: Beata Dulko-Smith <beata@Mimir.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 37 insertions(+)
+ create mode 100644 geometry.py
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git config --global beata.smith "Beata Dulko Smith"
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git config --global beata.smith beata.dulkosmith@mavs.uta.edu
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git -list
+unknown option: -list
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ gilt --list
+-bash: gilt: command not found
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git --list
+unknown option: --list
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git config --global user.name "Beata Dulko-Smith"
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git config --global user.email "bidulko@gmail.com#
+> 
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git config --global user.email "bidulko@gmail.com"
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git config --global core.editor "vim"
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git config --list
+credential.helper=osxkeychain
+beata.smith=beata.dulkosmith@mavs.uta.edu
+core.editor=vim
+user.name=Beata Dulko-Smith
+user.email=bidulko@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+core.precomposeunicode=true
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.ipynb_checkpoints/
+	QCArchive demo.ipynb
+
+nothing added to commit but untracked files present (use "git add" to track)
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ la
+-bash: la: command not found
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ ls
+QCArchive demo.ipynb	geometry.py
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ man git 
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ man git 
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git add geometry.py 
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ man git
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ man git |less
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git commit -m "geometry file"
+On branch master
+Untracked files:
+	.ipynb_checkpoints/
+	QCArchive demo.ipynb
+
+nothing added to commit but untracked files present
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.ipynb_checkpoints/
+	QCArchive demo.ipynb
+
+nothing added to commit but untracked files present (use "git add" to track)
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git add QCArchive\ demo.ipynb 
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   QCArchive demo.ipynb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.ipynb_checkpoints/
+
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git commit 
+[master c0b0c4f] New commit
+ 1 file changed, 948 insertions(+)
+ create mode 100644 QCArchive demo.ipynb
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.ipynb_checkpoints/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git log
+commit c0b0c4fe81f5ad36ad713958b2b953d4524eacfe (HEAD -> master)
+Author: Beata Dulko-Smith <bidulko@gmail.com>
+Date:   Tue Jul 23 11:07:02 2019 -0500
+
+    New commit
+
+commit 1c8602b12df598e07ae859dd318734c7014bccdf
+Author: Beata Dulko-Smith <beata@Mimir.local>
+Date:   Tue Jul 23 10:55:59 2019 -0500
+
+    add geometry module
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git log --help
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ ls 
+QCArchive demo.ipynb	geometry.py
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git log
+commit c0b0c4fe81f5ad36ad713958b2b953d4524eacfe (HEAD -> master)
+Author: Beata Dulko-Smith <bidulko@gmail.com>
+Date:   Tue Jul 23 11:07:02 2019 -0500
+
+    New commit
+
+commit 1c8602b12df598e07ae859dd318734c7014bccdf
+Author: Beata Dulko-Smith <beata@Mimir.local>
+Date:   Tue Jul 23 10:55:59 2019 -0500
+
+    add geometry module
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ vi README.md
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ vi testing.txt
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git log
+commit c0b0c4fe81f5ad36ad713958b2b953d4524eacfe (HEAD -> master)
+Author: Beata Dulko-Smith <bidulko@gmail.com>
+Date:   Tue Jul 23 11:07:02 2019 -0500
+
+    New commit
+
+commit 1c8602b12df598e07ae859dd318734c7014bccdf
+Author: Beata Dulko-Smith <beata@Mimir.local>
+Date:   Tue Jul 23 10:55:59 2019 -0500
+
+    add geometry module
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git add README.md testing.txt 
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git commit
+[master 571bd76] this is to commit two files at the same time
+ 2 files changed, 5 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 testing.txt
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.ipynb_checkpoints/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git status | less
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ ls
+QCArchive demo.ipynb	README.md		geometry.py		testing.txt
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.ipynb_checkpoints/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git log
+commit 571bd762efffb12658362c1c81c6f653f516e529 (HEAD -> master)
+Author: Beata Dulko-Smith <bidulko@gmail.com>
+Date:   Tue Jul 23 11:20:15 2019 -0500
+
+    this is to commit two files at the same time
+
+commit c0b0c4fe81f5ad36ad713958b2b953d4524eacfe
+Author: Beata Dulko-Smith <bidulko@gmail.com>
+Date:   Tue Jul 23 11:07:02 2019 -0500
+
+    New commit
+
+commit 1c8602b12df598e07ae859dd318734c7014bccdf
+Author: Beata Dulko-Smith <beata@Mimir.local>
+Date:   Tue Jul 23 10:55:59 2019 -0500
+
+    add geometry module
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ vi README.md 
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.ipynb_checkpoints/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git add README.md 
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.ipynb_checkpoints/
+
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git commit -m "update readme to include topics"
+[master 5463c03] update readme to include topics
+ 1 file changed, 5 insertions(+)
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ git diff HEAD~1
+diff --git a/README.md b/README.md
+index 8244705..d1a9ea9 100644
+--- a/README.md
++++ b/README.md
+@@ -2,3 +2,8 @@
+ 
+ This repository contains files for day 2.
+ 
++# Day 2 topics 
++
++QCArchive
++Git
++
+(sss_2019) Mimir.local [~/Desktop/MolISS/molssi_summer_school/day2]$ 
