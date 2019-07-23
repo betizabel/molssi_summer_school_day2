@@ -1,4 +1,4 @@
-You will need these functions for the next part
+
 """
 geometry analysis functions
 """
